@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            border:crimson;
+        }
+        div p {
+            background-color: yellow;
+            color: black;
+            font-size: 100px;
+        }
+        div > p {
+            background-color: cadetblue;
+            color: darkred;
+            font-size: 50px;  
+        }
+        div + p{
+            font-size: 100px;
+        }
+        section+p{
+            color: rgb(42, 12, 209);
+        }
+        h5{
+            font-size: 500px;
+        }
+        div~p{
+            background-color: gold;
+        }
+        p:first-letter {
+            font-size: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <div>
+            <p>paragraph3</p>
+        </div>
+        <section>
+            <p>paragraph4</p>
+            <p>paragraph4</p>
+            <p>paragraph4</p>
+        </section>
+        <p>paragraph5</p>
+    </div>
+        <p>paragraph6</p>
+    <h5>Dinesh</h5>
+</body>
+</html>
